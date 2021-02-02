@@ -4,8 +4,7 @@ This repository contains code to reproduce the findings featured in our story, "
 Our methodology is described in "[How We Built a Facebook Inspector](https://themarkup.org/citizen-browser/2021/01/05/how-we-built-a-facebook-inspector)".
 
 ## Data
-`data/` contains CSV data that has been aggregated along `url_domain`s to count the `max_interactions` (number of "likes", "hahas", etc), and total number of unique users (`n_users_exposure`) who were exposed to a link from that domain by Facebook.
-We omit any domains that were seen by only one person.
+`data/` contains one CSV file showing the top 500 hashtags ranked by number of user accounts they were shown to, and four separate CSV files with the demographic data behind each chart that appears in the article.
 
 ## Licensing
 Copyright 2021, The Markup News Inc.
