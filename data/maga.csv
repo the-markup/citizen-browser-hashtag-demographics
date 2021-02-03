@@ -1,5 +1,5 @@
-vote_2020,count_hashtag,count_all,population_error,percent
-Voted Biden,13,2044,0.02211869776019044,0.6360078277886496
-Voted Trump,17,914,0.03307706008278112,1.8599562363238513
-Voted Other,0,99,0,0
-Did Not Vote,3,232,0,1.2931034483
+vote_2020,count_hashtag,count_all,percent
+Voted Biden,13,2044,0.6360078277886496
+Voted Trump,17,914,1.8599562363238513
+Voted Other,0,99,0
+Did Not Vote,3,232,1.2931034483

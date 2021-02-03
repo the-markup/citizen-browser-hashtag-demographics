@@ -1,10 +1,20 @@
 # Citizen Browser - Hashtags on Facebook
-This repository contains code to reproduce the findings featured in our story, "[Story Link TK](https://tk.tk)" from our series, [Citizen Browser](https://themarkup.org/citizen-browser/).
+This repository contains code to reproduce the findings featured in our newsletter story, "[The Hashtags of Facebook](https://www.getrevue.co/profile/citizenbrowser/issues/the-hashtags-of-facebook-311304)" from our series, [Citizen Browser](https://themarkup.org/citizen-browser/).
 
 Our methodology is described in "[How We Built a Facebook Inspector](https://themarkup.org/citizen-browser/2021/01/05/how-we-built-a-facebook-inspector)".
 
 ## Data
 `data/` contains one CSV file showing the top 500 hashtags ranked by number of user accounts they were shown to (`Top-hashtags_2021-02-01.csv`), and four separate CSV files with the demographic data behind each chart that appears in the article.
+
+For the four hashtag CSVs – `berniesmittens.csv`, `blm.csv`,  `covid19.csv`, `maga.csv` – the table columns are as follows:
+
+| column           | decription                                                                                 |
+|:-----------------|:-------------------------------------------------------------------------------------------|
+| [characteristic] | Name of demographic characteristic represented, e.g. 'race' or 'vote_2020'                 |
+| count_hashtag    | The number of user accounts in a demographic group exposed to a hashtag |
+| count_all        | Total number of panelists from this demographic in the Citizen Browser cohort        |
+| percent          | Panelists exposed as percentage of total panelists in the demographic                      |
+
 
 ## Licensing
 Copyright 2021, The Markup News Inc.
