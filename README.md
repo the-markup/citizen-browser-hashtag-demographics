@@ -4,7 +4,7 @@ This repository contains code to reproduce the findings featured in our story, "
 Our methodology is described in "[How We Built a Facebook Inspector](https://themarkup.org/citizen-browser/2021/01/05/how-we-built-a-facebook-inspector)".
 
 ## Data
-`data/` contains one CSV file showing the top 500 hashtags ranked by number of user accounts they were shown to, and four separate CSV files with the demographic data behind each chart that appears in the article.
+`data/` contains one CSV file showing the top 500 hashtags ranked by number of user accounts they were shown to (`Top-hashtags_2021-02-01.csv`), and four separate CSV files with the demographic data behind each chart that appears in the article.
 
 ## Licensing
 Copyright 2021, The Markup News Inc.
